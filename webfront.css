@@ -1,19 +1,23 @@
-/* Hopp WebFront Login Skin
-   Branding der Login-/Auswahlseite fuer IP-Symcon 9.0. */
+/* Hopp WebFront login branding for IP-Symcon 9.0.
+   Intentionally minimal: only the logoTop element is changed. */
 
-.ipsLogin > .logo {
-    background-image: url("https://www.hopp-blechverarbeitung.de/sites/all/themes/hopp/logo.svg") !important;
+.ipsLogin .logoTop {
+    background-image: url(img/hopp-logo.svg) !important;
     background-repeat: no-repeat !important;
     background-position: center center !important;
     background-size: contain !important;
+    filter: none !important;
     width: 520px !important;
-    max-width: 80vw !important;
     height: 165px !important;
+    margin-left: -260px !important;
+    margin-top: -165px !important;
 }
 
 @media (max-width: 700px) {
-    .ipsLogin > .logo {
-        width: 82vw !important;
-        height: 120px !important;
+    .ipsLogin .logoTop {
+        width: 320px !important;
+        height: 105px !important;
+        margin-left: -160px !important;
+        margin-top: -105px !important;
     }
 }
