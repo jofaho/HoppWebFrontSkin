@@ -1,8 +1,8 @@
 /* Hopp WebFront login branding for IP-Symcon 9.0.
-   Intentionally minimal: only the logoTop element is changed. */
+   Intentionally minimal: only the login logo is changed. */
 
 .ipsLogin .logoTop {
-    background-image: url(img/hopp-logo.svg) !important;
+    background-image: url(hopp-logo-web.png) !important;
     background-repeat: no-repeat !important;
     background-position: center center !important;
     background-size: contain !important;
