@@ -1,0 +1,20 @@
+/* Hopp WebFront Login-Skin
+   Nur die Login-/Auswahlseite wird gebrandet. */
+
+.ipsLogin > .logo {
+    background-image: url(hopp-logo.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: contain !important;
+    width: 520px !important;
+    max-width: 80vw !important;
+    height: 165px !important;
+}
+
+/* Auf kleinen Displays Logo proportional verkleinern */
+@media (max-width: 700px) {
+    .ipsLogin > .logo {
+        width: 82vw !important;
+        height: 120px !important;
+    }
+}
