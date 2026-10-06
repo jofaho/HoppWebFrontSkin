@@ -1,6 +1,5 @@
-/* Hopp WebFront login branding for IP-Symcon 9.0
-   Goal: preserve the standard dark WebFront, center the Hopp logo above the
-   configurator row and keep all functional elements untouched. */
+/* Hopp WebFront login branding for IP-Symcon 9.0.
+   Minimal branding: logo only, standard WebFront functionality untouched. */
 
 .ipsLogin .logoTop {
     background-image: url(hopp-logo-web.png) !important;
@@ -9,26 +8,19 @@
     background-size: contain !important;
     filter: grayscale(1) brightness(0) invert(1) !important;
 
-    width: 560px !important;
-    height: 170px !important;
+    width: 500px !important;
+    height: 150px !important;
+    margin-left: -250px !important;
 
-    /* Symcon positions logoTop from the horizontal center. */
-    margin-left: -280px !important;
-
-    /* Keep the complete logo above the divider/configurator row. */
-    margin-top: -230px !important;
-}
-
-/* Keep the configurator row below the logo and avoid overlap. */
-.ipsLogin > .content {
-    overflow: visible !important;
+    /* Move logo upward to create a clear gap above the WebFront choices. */
+    margin-top: -255px !important;
 }
 
 @media (max-width: 700px) {
     .ipsLogin .logoTop {
-        width: 340px !important;
-        height: 110px !important;
-        margin-left: -170px !important;
-        margin-top: -175px !important;
+        width: 330px !important;
+        height: 100px !important;
+        margin-left: -165px !important;
+        margin-top: -190px !important;
     }
 }
