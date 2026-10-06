@@ -1,0 +1,9 @@
+{
+  "author": "Hopp Blechverarbeitung und Druckerei",
+  "version": "1.0",
+  "compatible": 1,
+  "title": "Hopp WebFront",
+  "url": "https://hopp-blechverarbeitung.de/",
+  "git": "https://github.com/jofaho/HoppWebFrontSkin.git",
+  "icons": []
+}
